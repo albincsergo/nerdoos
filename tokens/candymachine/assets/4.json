@@ -1,0 +1,24 @@
+{
+    "name": "Nerdoo #5",
+    "symbol": "NERD",
+    "description": "Nerdoos are geniuses in general but there are some impostor Trustfunbabies. Can you find them?",
+    "image": "0.png",
+    "attributes": [
+        {
+            "trait_type": "accessory",
+            "value": "crazy hair"
+        },
+        {
+            "trait_type": "talent",
+            "value": "never has a bug in his code"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "4.png",
+                "type": "image/png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Nerdoo #2",
+    "symbol": "NERD",
+    "description": "Nerdoos are geniuses in general but there are some impostor Trustfunbabies. Can you find them?",
+    "image": "0.png",
+    "attributes": [
+        {
+            "trait_type": "accessory",
+            "value": "horns"
+        },
+        {
+            "trait_type": "talent",
+            "value": "rich parents"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "1.png",
+                "type": "image/png"
+            }
+        ]
+    }
+}
