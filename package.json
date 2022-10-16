@@ -11,18 +11,18 @@
     "reset-candy-machine": "rm -rf tokens/candymachine/cache.json && cd tokens/candymachine && sugar launch"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.11",
-    "@chakra-ui/react": "^2.3.5",
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/react": "^2.3.4",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@metaplex-foundation/js": "^0.17.1",
     "@metaplex-foundation/mpl-token-metadata": "^2.3.3",
     "@solana/spl-token": "^0.3.5",
-    "@solana/wallet-adapter-base": "^0.9.18",
-    "@solana/wallet-adapter-react": "^0.15.20",
-    "@solana/wallet-adapter-react-ui": "^0.9.18",
-    "@solana/wallet-adapter-wallets": "^0.19.2",
-    "@solana/web3.js": "^1.65.0",
+    "@solana/wallet-adapter-base": "^0.9.17",
+    "@solana/wallet-adapter-react": "^0.15.19",
+    "@solana/wallet-adapter-react-ui": "^0.9.17",
+    "@solana/wallet-adapter-wallets": "^0.19.0",
+    "@solana/web3.js": "^1.63.1",
     "framer-motion": "^7.5.3",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -32,9 +32,9 @@
     "@types/node": "18.11.0",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.25.0",
+    "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "ts-node": "^10.9.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.3"
   }
 }
