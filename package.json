@@ -1,5 +1,5 @@
 {
-  "name": "solana-ship-deploy-nerdoos-frontend",
+  "name": "buildoors",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,34 +7,37 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-nrd": "ts-node ./tokens/nrd/index.ts",
-    "reset-candy-machine": "rm -rf tokens/candymachine/cache.json && cd tokens/candymachine && sugar launch"
+    "reset-candy-machine": "rm tokens/candy-machine/cache.json; cd tokens/candy-machine && sugar launch -r https://api.devnet.solana.com",
+    "create-bld-token": "ts-node tokens/bld/index.ts",
+    "create-gear-tokens": "ts-node tokens/gear/index.ts"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.11",
-    "@chakra-ui/react": "^2.3.5",
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@metaplex-foundation/js": "^0.17.1",
-    "@metaplex-foundation/mpl-token-metadata": "^2.3.3",
-    "@solana/spl-token": "^0.3.5",
-    "@solana/wallet-adapter-base": "^0.9.18",
-    "@solana/wallet-adapter-react": "^0.15.20",
-    "@solana/wallet-adapter-react-ui": "^0.9.18",
-    "@solana/wallet-adapter-wallets": "^0.19.2",
-    "@solana/web3.js": "^1.65.0",
-    "framer-motion": "^7.5.3",
-    "next": "12.3.1",
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.2.9",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@metaplex-foundation/js": "^0.15.0",
+    "@project-serum/anchor": "^0.25.0",
+    "@project-serum/borsh": "^0.2.5",
+    "@solana/wallet-adapter-base": "^0.9.16",
+    "@solana/wallet-adapter-react": "^0.15.18",
+    "@solana/wallet-adapter-react-ui": "^0.9.16",
+    "@solana/wallet-adapter-wallets": "^0.18.6",
+    "@solana/web3.js": "^1.54.0",
+    "@switchboard-xyz/switchboard-v2": "^0.0.137",
+    "dotenv": "^16.0.2",
+    "framer-motion": "^6.5.1",
+    "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.0",
-    "@types/react": "18.0.21",
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
     "ts-node": "^10.9.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.2"
   }
 }
